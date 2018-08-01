@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz80sTV</string>
+    <string name="question1">The main character in M.A.S.H. is Fonzie</string>
+    <string name="hint1">M.A.S.H. was about doctors in the Korean War</string>
+    <string name="question2">Richie and Joanie are siblings on Happy Days</string>
+    <string name="hint2">The Cunningham family is the central focus of Happy Days</string>
+    <string name="question3">Laverne and Shirley was set in New York City</string>
+    <string name="hint3">Laverne and Shirley worked in a brewery</string>
+    <string name="question4">On Dallas, the country waited all summer to find out who shot J.R.</string>
+    <string name="hint4">J.R. Ewing was the head of a family-owned oil Empire on this evening soap opera</string>
+    <string name="myscore_text">Your score was </string>
+    <string name="congrats_message">New High Score!  Congratulations!</string>
+    <string name="enter_name_message">Enter your name and save your score!</string>
+    <string name="saved_message">Your score was saved!</string>
+    <string name="not_saved_message">Your name is needed to save your score</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="hint_button">Hint</string>
+    <string name="done_button">Done</string>
+    <string name="show_button">Show</string>
+    <string name="save_button">Save</string>
+    <string name="warning_text">Are you sure you want to know?</string>
+    <string name="correct_toast">Woohoo!</string>
+    <string name="hinted_toast">Got it (with hint)</string>
+    <string name="incorrect_toast">Oops!</string>
+</resources>

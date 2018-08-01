@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".FinishActivity">
+
+<TextView
+    android:id="@+id/myscore_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorAccent"
+    android:padding="24dp"
+    android:textSize="12pt"
+    android:text="@string/myscore_text"
+    />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/leaderboard_list"
+        android:scrollbars="vertical"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        />
+
+    <EditText
+        android:id="@+id/highScoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="24dp"
+        android:text=""
+         />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/trueColor"
+        android:text="@string/save_button"
+        android:textSize="12pt"
+        android:onClick="saveClick"
+         />
+
+
+    <TextView
+        android:id="@+id/congrats_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="@string/congrats_message"/>
+
+
+
+
+</LinearLayout>
